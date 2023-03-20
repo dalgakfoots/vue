@@ -6,6 +6,10 @@ import ClassAndStyle from "./essentials/class-and-style.vue";
 import Conditional from "./essentials/conditional.vue";
 import List from "./essentials/list.vue";
 import EventHandling from "./essentials/event-handling.vue";
+import Forms from "./essentials/forms.vue";
+import Watchers from "./essentials/watchers.vue";
+import Refs from "./essentials/template-refs.vue";
+import ComponentBasics from "./essentials/component-basics.vue";
 export default {
   components: {
     TemplateSyntax,
@@ -15,16 +19,25 @@ export default {
     Conditional,
     List,
     EventHandling,
+    Forms,
+    Watchers,
+    Refs,
   },
 };
 </script>
 
 <template>
-  <!-- <TemplateSyntax/>
+  <!-- 
+  https://v3-docs.vuejs-korea.org/guide/essentials/template-syntax.html
+  <TemplateSyntax/>
   <ReactivityFundamentals/> 
   <Computed/>
   <ClassAndStyle class="baz"/>
   <Conditional/>
-  <List/>-->
+  <List/>
   <EventHandling />
+  <Forms />
+  <Watchers />
+  <Refs />
+  -->
 </template>
