@@ -9,6 +9,15 @@ export default defineNuxtConfig({
       apiBase: "/api",
     },
   },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "@/assets/_colors.scss" as *;',
+        },
+      },
+    },
+  },
 });
 
 // 이후 어플리케이션에서 아래와 같이 사용할 수 있다.
