@@ -9,7 +9,15 @@ import EventHandling from "./essentials/event-handling.vue";
 import Forms from "./essentials/forms.vue";
 import Watchers from "./essentials/watchers.vue";
 import Refs from "./essentials/template-refs.vue";
-import ComponentBasics from "./essentials/component-basics.vue";
+import Props from "./componentsAdvance/Props.vue";
+import Events from "./componentsAdvance/Events.vue";
+import Vmodel from "./componentsAdvance/Vmodel.vue";
+import Slot from "./componentsAdvance/Slot.vue";
+import ProvideInject from "./componentsAdvance/ProvideInject.vue";
+import AsyncComponent from "./componentsAdvance/AsyncComponent.vue";
+import Composables from "./reusability/Composables.vue";
+import CustomDirectives from "./reusability/CustomDirectives.vue";
+import StateManagement from "./scalingUp/StateManagement.vue";
 export default {
   components: {
     TemplateSyntax,
@@ -22,6 +30,15 @@ export default {
     Forms,
     Watchers,
     Refs,
+    Props,
+    Events,
+    Vmodel,
+    Slot,
+    ProvideInject,
+    AsyncComponent,
+    Composables,
+    CustomDirectives,
+    StateManagement,
   },
 };
 </script>
@@ -40,4 +57,19 @@ export default {
   <Watchers />
   <Refs />
   -->
+  <!-- 
+  https://v3-docs.vuejs-korea.org/guide/components/registration.html  
+  <Props /> 
+  <Vmodel />
+  <Slot />
+  <ProvideInject />
+  <AsyncComponent />
+  -->
+  <!-- 
+  https://v3-docs.vuejs-korea.org/guide/reusability/composables.html
+  <Composables />
+  <CustomDirectives />-->
+
+  <!-- https://v3-docs.vuejs-korea.org/guide/scaling-up/sfc.html
+  <StateManagement /> -->
 </template>
